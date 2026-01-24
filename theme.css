@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
+	--radius-s: 10px;
+	--radius-m: 10px;
+	--radius-l: 20px;
 	--input-radius: 0px;
 	--tab-radius-active: 0px;
 	--checkbox-radius: 0px;
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
+	--slider-thumb-radius: 0px;	
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -31,4 +32,62 @@ svg * {
 
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+/* body {
+  --font-text-theme: Georgia, serif;
+} */
+
+.theme-dark {
+  --background-primary: #18004F;
+  --background-secondary: #220070;
+}
+
+.theme-light {
+	/* Background colors */
+  --background-primary: #EED7BE;
+  --background-secondary: #d7c1a8;
+
+  /*Headings and text*/
+  --h1-color: #7C2220;
+  --h2-color: #7C2220;
+  --h3-color: #7C2220;
+  --h4-color: #7C2220;
+  --h5-color: #7C2220;
+  --h6-color: #7C2220;
+  --link-color: #7C2220;
+  --link-color-hover: #6C5141;
+  --link-unresolved-color: #7C2220;
+  --link-weight: 800;
+  --link-unresolved-color-hover: #6C5141;
+
+  --font-text-theme: "EB Garamond", serif;
+  --text-normal: #443329;
+
+  /*tabs*/
+  --tab-background-active: var(--background-primary);
+  --tab-background-inactive: var(--background-secondary);
+  --tab-text-color-focused-active-current: #5F2119;
+  --tab-curve: 10px 10px 0 0;
+  --tab-radius:  10px 10px 0 0;
+  --tab-radius-active:  10px 10px 0 0;
+
+  /*Nav item*/
+  --nav-item-background-active: #6C5141;
+  --nav-item-color: #5F2119;
+  --nav-item-color-active: #D7C1A8;
+
+  --status-bar-background: #6C5141;
+  --status-bar-text-color: white;
+  --titlebar-background-focused: #d7c1a8;
+
+  --ribbon-background: #c9b399;
+
+  /*Graph*/
+  --graph-text: #7C2220;
+  --graph-node-attachment: #9b2725;
+  --graph-node-tag: #9b2725;
+  --graph-line:  #6C5141;
+  --graph-node: #8b2e2c;
+  --graph-node-unresolved: #6C5141;
 }
