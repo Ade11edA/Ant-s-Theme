@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 body {
 	--radius-s: 10px;
-	--radius-m: 10px;
-	--radius-l: 20px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;	
+  --radius-m: 10px;
+  --radius-l: 20px;
+  --input-radius: 10px;
+  --tab-radius-active: 10px;
+  --checkbox-radius: 10px;
+  --toggle-radius: 15px;
+  --toggle-thumb-radius: 10px;
+  --slider-thumb-radius: 10px;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {

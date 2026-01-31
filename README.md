@@ -1,1 +1,1 @@
-This is a theme for anthea :D
+This is a theme for Anthea :D
